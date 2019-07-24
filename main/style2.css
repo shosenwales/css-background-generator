@@ -1,0 +1,50 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: /*rgba(0,0,0,.5)*/white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: /*linear-gradient(to right, red , yellow)*/url("stroke.png"); 
+}
+
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: /*rgba(0,0,0,.5)*/white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: /*rgba(0,0,0,.5)*/white;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+ /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("stroke.png");*/
+  background: /*linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("stroke.png");*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
